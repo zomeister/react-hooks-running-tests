@@ -1,5 +1,9 @@
 # Running Tests in React
 
+----
+**Use `npm || npx, pnpm, yarn`** (while located in the `package.json || package-lock.json`) **=: package dependencies, name, test commands, version, and any other info in `JSON` format**
+**=>wwill run all tests in: `src/__tests__/ComponentName.test.js`.**
+
 ## Learning Goals
 
 - Use Jest to run tests in React applications
@@ -123,6 +127,8 @@ or `learn test`.
 > **Pro tip**: you can use the shorthand `npm i` and `npm t` to run the install
 > and test scripts as well!
 
+- run `npm install` while in ./ (A DIRECTORY WITH A `PACKAGE.JSON`, or, perhaps a `package-lock.json`).
+- run `npm test` OR `learn test` in the same directory
 You should see something like this in the output:
 
 ```txt
